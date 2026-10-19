@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_LIBCPP_ENABLE_EXPERIMENTAL"
+            ],
+            "compilerPath": "/usr/bin/clang++",
+            "compilerArgs": [
+                "-fexperimental-library"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
